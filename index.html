@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7-Day Weather Forecast</title>
+  <link rel="stylesheet" href="master.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+        <h1 class="section-heading">EurOrbit</h1>
+        <h2 class="section-subheading">European Weather Forecast</h2>
+      <h1>7-Day Weather Forecast</h1>
+      
+      <form id="weatherForm">
+        <label for="citySelect">Select a City:</label>
+        <select id="citySelect">
+          <option value="48.8566,2.3522">Paris, France</option>
+          <option value="51.5074,-0.1278">London, UK</option>
+          <option value="52.5200,13.4050">Berlin, Germany</option>
+          <option value="41.9028,12.4964">Rome, Italy</option>
+          <option value="40.4168,-3.7038">Madrid, Spain</option>
+        </select>
+        <button type="submit">Get Forecast</button>
+      </form>
+    </header>
+    <div id="weatherResults" class="forecast-grid"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>s
